@@ -37,3 +37,69 @@ nav ul li a{
 article{
     color: aqua;
 }
+ body {
+        background-color: #f0f0f0;
+        font-family: 'Times New Roman', Times, serif, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: f4f4f4;
+      }
+      header {
+        background-color: #060606;
+        color: white;
+        padding: 1rem 0;
+        text-align: center;
+      }
+      nav {
+        background-color: #555;
+        display: flex;
+        justify-content: center;
+      }
+nav a {
+        color: white;
+        padding: 1rem
+        text-decoration: none;
+      }
+      nav a:hover {
+        background-color: #777;
+      }
+      main {
+        padding: 2rem;
+        text-align: center;
+      }
+      footer {
+        background-color: #090808; 
+        color: white;
+        text-align: center;
+        padding: 1rem 0;  
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+          </style>
+</head>
+<body>
+  <h1>PROJECT 1</h1>   
+  <p>Software Engineeer.</p>
+<nav>
+    <a href=>Home</a>
+    <a href=>About</a>
+    <a href=>Contact</a>
+    <style>
+  nav {
+    background-color: #3d2424;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
